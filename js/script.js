@@ -27,7 +27,7 @@ $(document).ready(function(){
       stamp = Date.parse($(".time", this).text());
       var trans = Math.round((now - stamp)/5000000);
       console.log(trans);
-      $(this).css('width', 1/trans +"px");
+      $(this).css('width', 50*(1/trans) +"px");
     });
   }
 
