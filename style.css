@@ -37,9 +37,7 @@ p{
 #about{
   width: 100vw;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  text-align: center;
+
 }
 
 main{
@@ -49,11 +47,15 @@ main{
 
 #cover{
   background: blue;
+  color: white;
   height: 100vh;
   width: 100vw;
   position:absolute;
   top: 0;
   left: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .post{
@@ -100,8 +102,8 @@ button:hover{
 
 form{
   width: 100%;
-  position: fixed;
-  top: 50%;
+/*  position: fixed;
+  top: 50%;*/
   text-align: center;
 }
 
