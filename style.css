@@ -60,7 +60,8 @@ main{
 
 .post{
   margin: 0 1rem;
-  border: 2px dotted blue;
+  border: 2px dotted white;
+  background: blue;
   width: 130px;
   height: 130px;
   float: left;
@@ -79,7 +80,7 @@ main{
 
 */
 .time{ 
-  color: blue;
+  color: white;
   font-size: 1em;
   font-weight: bold;
 }
